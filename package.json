@@ -1,0 +1,86 @@
+{
+  "_from": "git+https://github.com/jason-james/inferno-chartist.git",
+  "_id": "inferno-chartist@0.13.2",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/inferno-chartist",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/jason-james/inferno-chartist.git",
+    "rawSpec": "https://github.com/jason-james/inferno-chartist.git",
+    "saveSpec": "git+https://github.com/jason-james/inferno-chartist.git",
+    "fetchSpec": "https://github.com/jason-james/inferno-chartist.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/jason-james/inferno-chartist.git#47a3f7f484395ae4317d81984a2c22d59428b60c",
+  "_spec": "https://github.com/jason-james/inferno-chartist.git",
+  "_where": "C:\\Users\\Jason\\inferno-projects\\my-app",
+  "author": {
+    "name": "Jason James",
+    "email": "jason@iotxplorer.io",
+    "url": "iotxplorer.io"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "es2015",
+      "stage-0"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/jason-james/inferno-chartist/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prop-types": "^15.5.8"
+  },
+  "deprecated": false,
+  "description": "Inferno component for Chartist.js",
+  "devDependencies": {
+    "@types/chartist": "^0.9.43",
+    "@types/react": "^16.7.17",
+    "@types/react-dom": "^16.0.11",
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "create-inferno-app": "^7.0.6",
+    "cross-env": "^5.2.0",
+    "inferno-devtools": "^7.0.4",
+    "inferno-router": "^7.0.4",
+    "inferno-scripts": "7.0.4",
+    "inferno-test-utils": "^7.0.4"
+  },
+  "homepage": "https://github.com/jason-james/inferno-chartist/",
+  "keywords": [
+    "inferno",
+    "inferno-component",
+    "component",
+    "chartist",
+    "graph"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "inferno-chartist",
+  "peerDependencies": {
+    "chartist": "^0.10.1",
+    "react": "^0.14.9 || ^15.0.0 || ^16.0.0",
+    "inferno": "^7.0.4",
+    "inferno-shared": "^7.1.7",
+    "inferno-create-element": "^7.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jason-james/inferno-chartist.git"
+  },
+  "scripts": {
+    "build": "mkdir -p dist && babel index.js -o dist/index.js && cp index.d.ts dist/index.d.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "version": "0.13.2"
+}
